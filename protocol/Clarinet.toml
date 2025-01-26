@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/ddd.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.dividend-traits]
+path = 'contracts/dividend-traits.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
